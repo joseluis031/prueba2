@@ -1,6 +1,5 @@
 import math
-X = 0
-Y = 0
+
 a = [0,3]
 b = [1,3]
 c = [2,4]
@@ -31,5 +30,9 @@ class Punto:
         print( "El vector sera({}, {})".format(punto.X -self.X, punto.Y - self.Y))
         
 
-        
+A = Punto 
+
+A.vector()
+
+
         
