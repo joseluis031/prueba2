@@ -30,9 +30,7 @@ class Punto:
         print( "El vector sera({}, {})".format(punto.X -self.X, punto.Y - self.Y))
         
 
-A = Punto 
 
-A.vector()
 
 
         

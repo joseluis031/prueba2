@@ -8,7 +8,7 @@ y2 = 5
 a = [x1,y1]
 b = [x2,y2]
 
-class rectangulo:
+class Rectangulo:
     x1 = 0
     y1 = 4
     x2 = 3
@@ -28,4 +28,5 @@ class rectangulo:
         print("la altura es {}".format(self.y2 - self.y1))
         
     def area(self):
-        print("El area es {}".format((self.x2-self.x1)*(self.y2-self.y1))
+        print("El area es {}".format((self.x2-self.x1)*(self.y2-self.y1)))
+              
