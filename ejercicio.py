@@ -5,6 +5,7 @@ b = [1,3]
 c = [2,4]
 d = [1,5]
 class Punto:
+    punto = (0,3)
     X = 0
     Y = 0
     def __init__(self,X,Y):
